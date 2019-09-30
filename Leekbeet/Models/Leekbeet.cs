@@ -16,7 +16,6 @@ namespace Translator
                 if (inputArray[i].EndsWith(".") || inputArray[i].EndsWith(",") || inputArray[i].EndsWith("?") || inputArray[i].EndsWith("!"))
                 {
                     lastChar = inputArray[i][inputArray[i].Length - 1].ToString();
-                    Console.WriteLine(lastChar);
                     punctuation = true;
                     inputArray[i] = inputArray[i].Remove(inputArray[i].Length - 1);
                 }
