@@ -6,7 +6,7 @@ namespace Translator
     {
         public string Translate(string input)
         {
-            string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with" };
+            string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with", "are", "I'm", "you", "your", "this", "there", "they're", "their", "am", "if", "is", "was", "my", "at", "that's", "from", "like", "since", "until", "our"};
             string[] inputArray = input.Split(' ');
             for (int i = 0; i < inputArray.Length; i++)
             {
@@ -29,10 +29,6 @@ namespace Translator
                     {
                         inputArray[i] = "dill";
                     }
-                    else if (char.ToLower(inputArray[i][0]) == 'd')
-                    {
-                        inputArray[i] = "dill";
-                    }
                     else if (char.ToLower(inputArray[i][0]) == 'e')
                     {
                         inputArray[i] = "eggplant";
@@ -49,10 +45,10 @@ namespace Translator
                     {
                         inputArray[i] = "horseradish";
                     }
-                    else if (char.ToLower(inputArray[i][0]) == 'i')
-                    {
-                        inputArray[i] = "iceberg lettuce";
-                    }
+                    // else if (char.ToLower(inputArray[i][0]) == 'i')
+                    // {
+                    //     inputArray[i] = "iceberg lettuce";
+                    // }
                     else if (char.ToLower(inputArray[i][0]) == 'j')
                     {
                         inputArray[i] = "jicama";
@@ -121,9 +117,7 @@ namespace Translator
                     {
                         inputArray[i] = "zucchini";
                     }
-
                 }
-                
             }
             string output = string.Join(" ", inputArray);
             return output;
