@@ -11,9 +11,111 @@ namespace Translator
                 {
                     inputArray[i] = "asparagus";
                 }
+                else if (char.ToLower(inputArray[i][0]) == 'b')
+                {
+                    inputArray[i] = "beet";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'c')
+                {
+                    inputArray[i] = "carrot";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'd')
+                {
+                    inputArray[i] = "dill";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'd')
+                {
+                    inputArray[i] = "dill";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'e')
+                {
+                    inputArray[i] = "eggplant";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'f')
+                {
+                    inputArray[i] = "fennel";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'g')
+                {
+                    inputArray[i] = "garlic";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'h')
+                {
+                    inputArray[i] = "horseradish";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'i')
+                {
+                    inputArray[i] = "iceberg lettuce";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'j')
+                {
+                    inputArray[i] = "jicama";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'k')
+                {
+                    inputArray[i] = "kale";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'l')
+                {
+                    inputArray[i] = "leek";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'm')
+                {
+                    inputArray[i] = "mint";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'n')
+                {
+                    inputArray[i] = "nutmeg";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'o')
+                {
+                    inputArray[i] = "onion";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'p')
+                {
+                    inputArray[i] = "potato";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'q')
+                {
+                    inputArray[i] = "quinoa";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'r')
+                {
+                    inputArray[i] = "radish";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 's')
+                {
+                    inputArray[i] = "squash";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 't')
+                {
+                    inputArray[i] = "turnip";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'u')
+                {
+                    inputArray[i] = "unagi";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'v')
+                {
+                    inputArray[i] = "vanilla";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'w')
+                {
+                    inputArray[i] = "watercress";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'x')
+                {
+                    inputArray[i] = "xigua";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'y')
+                {
+                    inputArray[i] = "yam";
+                }
+                else if (char.ToLower(inputArray[i][0]) == 'z')
+                {
+                    inputArray[i] = "zucchini";
+                }   
             }
-            
-            
             
             string output = string.Join(" ", inputArray);
             return output;
