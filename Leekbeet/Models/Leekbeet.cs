@@ -8,8 +8,20 @@ namespace Translator
         {
             string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with", "are", "I'm", "you", "your", "this", "there", "they're", "their", "am", "if", "is", "was", "my", "at", "that's", "from", "like", "since", "until", "our"};
             string[] inputArray = input.Split(' ');
+
             for (int i = 0; i < inputArray.Length; i++)
             {
+                bool punctuation = false;
+                string lastChar = "";
+                if (inputArray[i].EndsWith(".") || inputArray[i].EndsWith(",") || inputArray[i].EndsWith("?") || inputArray[i].EndsWith("!"))
+                {
+                    lastChar = inputArray[i][inputArray[i].Length - 1].ToString();
+                    Console.WriteLine(lastChar);
+                    punctuation = true;
+                    inputArray[i] = inputArray[i].Remove(inputArray[i].Length - 1);
+                }
+
+
                 int pos = Array.IndexOf(exceptions, inputArray[i]);
                 if (pos < 0)
                 {
@@ -118,6 +130,12 @@ namespace Translator
                         inputArray[i] = "zucchini";
                     }
                 }
+
+                if (punctuation)
+                {
+                    inputArray[i] += lastChar;
+                }
+
             }
             string output = string.Join(" ", inputArray);
             return output;
