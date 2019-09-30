@@ -1,14 +1,12 @@
-using System;
-
 namespace Translator
 {
     public class Leekbeet
     {
         public string Translate(string input)
         {
+            bool firstCharUpper = Char.IsUpper(input[0]);
             string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with", "are", "I'm", "you", "your", "this", "there", "they're", "their", "am", "if", "is", "was", "my", "at", "that's", "from", "like", "since", "until", "our"};
             string[] inputArray = input.Split(' ');
-
             for (int i = 0; i < inputArray.Length; i++)
             {
                 bool punctuation = false;
@@ -19,8 +17,6 @@ namespace Translator
                     punctuation = true;
                     inputArray[i] = inputArray[i].Remove(inputArray[i].Length - 1);
                 }
-
-
                 int pos = Array.IndexOf(exceptions, inputArray[i]);
                 if (pos < 0)
                 {
@@ -129,12 +125,16 @@ namespace Translator
                         inputArray[i] = "zucchini";
                     }
                 }
-
                 if (punctuation)
                 {
                     inputArray[i] += lastChar;
                 }
-
+            }
+            if (firstCharUpper)
+            {
+                char firstChar = inputArray[0][0];
+                string firstWord = inputArray[0].Remove(0, 1);
+                inputArray[0] = char.ToUpper(firstChar) + firstWord;
             }
             string output = string.Join(" ", inputArray);
             return output;

@@ -18,10 +18,9 @@ class Program
         }
         else if (response[0].ToString().ToUpper() == "T")
         {
-            Console.WriteLine("-----------------------------------------------------------------------");
             Console.WriteLine("Would you like to translate another phrase? [Enter Y for yes, N for no]");
             string nextResponse = Console.ReadLine();
-            if (response[0].ToString().ToUpper() == "Y")
+            if (nextResponse[0].ToString().ToUpper() == "Y")
             {
                 Main();
             }
