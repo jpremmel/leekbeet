@@ -7,7 +7,7 @@ namespace Translator
         public string Translate(string input)
         {
             bool firstCharUpper = Char.IsUpper(input[0]);
-            string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with", "are", "I'm", "you", "your", "this", "there", "they're", "their", "am", "if", "is", "was", "my", "at", "that's", "from", "like", "since", "until", "our"};
+            string[] exceptions = { "and", "the", "a", "I", "but", "also", "in", "of", "for", "to", "with", "are", "I'm", "you", "your", "this", "there", "they're", "their", "am", "if", "is", "was", "my", "at", "that's", "from", "like", "since", "until", "our", "who", "what", "where", "when", "why", "how"};
             string[] inputArray = input.Split(' ');
             for (int i = 0; i < inputArray.Length; i++)
             {
