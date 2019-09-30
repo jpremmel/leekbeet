@@ -1,0 +1,9 @@
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/bin/Debug/netcoreapp2.2/Leekbeet.deps.json
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/bin/Debug/netcoreapp2.2/Leekbeet.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/bin/Debug/netcoreapp2.2/Leekbeet.pdb
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.AssemblyInfo.cs
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet/obj/Debug/netcoreapp2.2/Leekbeet.pdb

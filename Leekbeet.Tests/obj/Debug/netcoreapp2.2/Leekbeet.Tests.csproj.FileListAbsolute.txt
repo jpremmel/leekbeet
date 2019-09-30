@@ -1,0 +1,17 @@
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.Tests.deps.json
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.Tests.runtimeconfig.json
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.Tests.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.Tests.pdb
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/bin/Debug/netcoreapp2.2/Leekbeet.pdb
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.csproj.CopyComplete
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.dll
+/Users/Guest/Desktop/Leekbeet.Solution/Leekbeet.Tests/obj/Debug/netcoreapp2.2/Leekbeet.Tests.pdb
