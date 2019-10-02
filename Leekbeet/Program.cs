@@ -8,6 +8,7 @@ class Program
         Console.WriteLine("Welcome to LeekBeet! Enter a sentence or phrase to translate:");
         string input = Console.ReadLine();
         Leekbeet newLeekbeet = new Leekbeet();
+        Console.WriteLine("--------------------------------------------------------------------------------------------");
         Console.WriteLine(newLeekbeet.Translate(input));
         Console.WriteLine("--------------------------------------------------------------------------------------------");
         Console.WriteLine("Watercress you like to turnip asparagus potato? [Enter Y for yes, N for no, T for translate]");
